@@ -1,0 +1,35 @@
+﻿@model SatinAlmaStokTakip.Models.Fatura
+
+@{
+    ViewData["Title"] = "Yeni Fatura Ekle";
+    var teklifler = ViewBag.Teklifler as List<SatinAlmaStokTakip.Models.Teklif>;
+}
+
+<h2 class="text-2xl font-bold text-indigo-700 mb-6">Yeni Fatura Ekle</h2>
+
+<form asp-action="Create" method="post" class="bg-white/80 rounded-xl shadow p-6 max-w-lg mx-auto space-y-4">
+    <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Fatura No</label>
+        <input asp-for="FaturaNo" class="w-full rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400 px-3 py-2 text-gray-700" />
+    </div>
+
+    <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Tutar</label>
+        <input asp-for="Tutar" class="w-full rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400 px-3 py-2 text-gray-700" type="number" step="0.01" />
+    </div>
+
+    <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Teklif Seç</label>
+        <select asp-for="TeklifID" class="w-full rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400 px-3 py-2 text-gray-700">
+            @foreach (var teklif in teklifler)
+            {
+                <option value="@teklif.ID">@teklif.FirmaAdi - @teklif.Fiyat ₺</option>
+            }
+        </select>
+    </div>
+
+    <div class="flex gap-3 mt-4">
+                        <button type="submit" class="px-5 py-2 rounded-lg bg-gray-700 hover:bg-gray-800 text-white font-semibold flex items-center gap-2"><i class="fas fa-save"></i> Kaydet</button>
+        <a asp-action="Index" class="px-5 py-2 rounded-lg bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold flex items-center gap-2"><i class="fas fa-times"></i> İptal</a>
+    </div>
+</form>

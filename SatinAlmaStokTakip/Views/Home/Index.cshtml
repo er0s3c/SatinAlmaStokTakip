@@ -1,0 +1,208 @@
+﻿@model SatinAlmaStokTakip.Controllers.DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+    var kullaniciAdi = Context.Session.GetString("KullaniciAdi");
+    var rol = Context.Session.GetString("Rol");
+}
+<div class="max-w-7xl mx-auto">
+    <!-- Hoş Geldin Mesajı -->
+    <div class="mb-8">
+        <div class="bg-white rounded-xl shadow p-8 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2">
+                <i class="fas fa-chart-line"></i> Hoş Geldiniz, @kullaniciAdi!
+            </h1>
+            <p class="text-gray-500 text-lg">Modern stok takip sisteminize hoş geldiniz</p>
+        </div>
+    </div>
+    <!-- İstatistik Kartları -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div class="bg-gradient-to-br from-gray-600 to-gray-800 text-white rounded-xl shadow p-6 flex flex-col justify-between">
+            <div>
+                <div class="text-3xl font-bold">@Model.ToplamTalepSayisi</div>
+                <div class="text-sm opacity-80">Toplam Talep</div>
+                <div class="text-xs mt-1">Bekleyen: @Model.BekleyenTalepSayisi</div>
+            </div>
+            <div class="mt-4 text-4xl opacity-60"><i class="fas fa-clipboard-list"></i></div>
+        </div>
+        <div class="bg-gradient-to-br from-gray-500 to-gray-700 text-white rounded-xl shadow p-6 flex flex-col justify-between">
+            <div>
+                <div class="text-3xl font-bold">@Model.ToplamTeklifSayisi</div>
+                <div class="text-sm opacity-80">Toplam Teklif</div>
+            </div>
+            <div class="mt-4 text-4xl opacity-60"><i class="fas fa-handshake"></i></div>
+        </div>
+        <div class="bg-gradient-to-br from-gray-400 to-gray-600 text-white rounded-xl shadow p-6 flex flex-col justify-between">
+            <div>
+                <div class="text-3xl font-bold">@Model.ToplamFaturaSayisi</div>
+                <div class="text-sm opacity-80">Toplam Fatura</div>
+            </div>
+            <div class="mt-4 text-4xl opacity-60"><i class="fas fa-file-invoice"></i></div>
+        </div>
+        <div class="bg-gradient-to-br from-gray-300 to-gray-500 text-white rounded-xl shadow p-6 flex flex-col justify-between">
+            <div>
+                <div class="text-3xl font-bold">@Model.ToplamStokSayisi</div>
+                <div class="text-sm opacity-80">Stok Durumu</div>
+                <div class="text-xs mt-1">Düşük: @Model.DusukStokSayisi</div>
+            </div>
+            <div class="mt-4 text-4xl opacity-60"><i class="fas fa-boxes"></i></div>
+        </div>
+    </div>
+    <!-- Grafikler -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+        <div class="bg-white rounded-xl shadow p-6">
+            <div class="font-semibold text-gray-700 mb-2 flex items-center gap-2"><i class="fas fa-chart-bar"></i> En Çok Stok Bulunan Malzemeler</div>
+            <div class="h-64"><canvas id="stokChart"></canvas></div>
+        </div>
+        <div class="bg-white rounded-xl shadow p-6">
+            <div class="font-semibold text-gray-700 mb-2 flex items-center gap-2"><i class="fas fa-chart-line"></i> Aylık Fatura Tutarları</div>
+            <div class="h-64"><canvas id="faturaChart"></canvas></div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+        <div class="bg-white rounded-xl shadow p-6">
+            <div class="font-semibold text-gray-700 mb-2 flex items-center gap-2"><i class="fas fa-chart-pie"></i> Stok Durumları</div>
+            <div class="h-64"><canvas id="stokDurumChart"></canvas></div>
+        </div>
+        <div class="bg-white rounded-xl shadow p-6">
+            <div class="font-semibold text-gray-700 mb-2 flex items-center gap-2"><i class="fas fa-bolt"></i> Hızlı İşlemler</div>
+            <div class="flex flex-col gap-3">
+                <a asp-controller="Talep" asp-action="Create" class="w-full py-3 rounded-lg bg-gray-800 hover:bg-gray-900 text-white font-semibold flex items-center justify-center gap-2 text-lg"><i class="fas fa-plus"></i> Yeni Talep Oluştur</a>
+                <a asp-controller="Stok" asp-action="Create" class="w-full py-3 rounded-lg bg-gray-700 hover:bg-gray-800 text-white font-semibold flex items-center justify-center gap-2 text-lg"><i class="fas fa-box"></i> Stok Girişi</a>
+                <a asp-controller="Tuketim" asp-action="Create" class="w-full py-3 rounded-lg bg-gray-600 hover:bg-gray-700 text-white font-semibold flex items-center justify-center gap-2 text-lg"><i class="fas fa-minus-circle"></i> Stok Tüketimi</a>
+                @if (rol == "Admin")
+                {
+                    <a asp-controller="Kullanici" asp-action="Create" class="w-full py-3 rounded-lg bg-gray-500 hover:bg-gray-600 text-white font-semibold flex items-center justify-center gap-2 text-lg"><i class="fas fa-user-plus"></i> Yeni Kullanıcı</a>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- Son İşlemler ve Uyarılar -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="lg:col-span-2 bg-white rounded-xl shadow p-6">
+            <div class="font-semibold text-gray-700 mb-2 flex items-center gap-2"><i class="fas fa-history"></i> Son İşlemler</div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                @if (Model.SonTalepTarihi.HasValue)
+                {
+                    <div class="flex items-center gap-3 bg-gray-50 rounded p-3">
+                        <i class="fas fa-clipboard-list text-gray-600 text-2xl"></i>
+                        <div>
+                            <div class="font-semibold">Son Talep</div>
+                            <div class="text-xs text-gray-500">@Model.SonTalepTarihi.Value.ToString("dd.MM.yyyy HH:mm")</div>
+                        </div>
+                    </div>
+                }
+                @if (Model.SonFaturaTarihi.HasValue)
+                {
+                    <div class="flex items-center gap-3 bg-gray-50 rounded p-3">
+                        <i class="fas fa-file-invoice text-gray-600 text-2xl"></i>
+                        <div>
+                            <div class="font-semibold">Son Fatura</div>
+                            <div class="text-xs text-gray-500">@Model.SonFaturaTarihi.Value.ToString("dd.MM.yyyy HH:mm")</div>
+                        </div>
+                    </div>
+                }
+                @if (Model.SonTuketimTarihi.HasValue)
+                {
+                    <div class="flex items-center gap-3 bg-gray-50 rounded p-3">
+                        <i class="fas fa-chart-bar text-gray-600 text-2xl"></i>
+                        <div>
+                            <div class="font-semibold">Son Tüketim</div>
+                            <div class="text-xs text-gray-500">@Model.SonTuketimTarihi.Value.ToString("dd.MM.yyyy HH:mm")</div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="bg-white rounded-xl shadow p-6">
+            <div class="font-semibold text-gray-700 mb-2 flex items-center gap-2"><i class="fas fa-exclamation-triangle"></i> Uyarılar</div>
+            <div class="space-y-2">
+                @if (Model.DusukStokSayisi > 0)
+                {
+                    <div class="flex items-center gap-2 bg-yellow-50 text-yellow-800 rounded p-3">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span class="font-semibold">Dikkat!</span> @Model.DusukStokSayisi adet ürünün stok seviyesi düşük.
+                        <a asp-controller="Stok" asp-action="Index" class="ml-auto text-gray-600 hover:underline">Kontrol et</a>
+                    </div>
+                }
+                @if (Model.BekleyenTalepSayisi > 0)
+                {
+                    <div class="flex items-center gap-2 bg-blue-50 text-blue-800 rounded p-3">
+                        <i class="fas fa-clock"></i>
+                        <span class="font-semibold">Bilgi:</span> @Model.BekleyenTalepSayisi adet talep bekliyor.
+                        <a asp-controller="Talep" asp-action="Index" class="ml-auto text-gray-600 hover:underline">İncele</a>
+                    </div>
+                }
+                @if (Model.DusukStokSayisi == 0 && Model.BekleyenTalepSayisi == 0)
+                {
+                    <div class="flex items-center gap-2 bg-green-50 text-green-800 rounded p-3">
+                        <i class="fas fa-check-circle"></i>
+                        <span class="font-semibold">Harika!</span> Tüm işlemler güncel.
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Grafik verilerini yükle
+        fetch('/Home/GetChartData').then(r=>r.json()).then(data=>{
+            // Stok Grafiği
+            new Chart(document.getElementById('stokChart'), {
+                type: 'bar',
+                data: {
+                    labels: data.stokVerileri.map(item => item.malzeme),
+                    datasets: [{
+                        label: 'Toplam Adet',
+                        data: data.stokVerileri.map(item => item.toplamAdet),
+                        backgroundColor: 'rgba(75,85,99,0.7)',
+                        borderColor: 'rgba(75,85,99,1)',
+                        borderWidth: 2,
+                        borderRadius: 6
+                    }]
+                },
+                options: {responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'rgba(0,0,0,0.07)'}},x:{grid:{display:false}}}}
+            });
+            // Fatura Grafiği
+            new Chart(document.getElementById('faturaChart'), {
+                type: 'line',
+                data: {
+                    labels: data.aylikFaturaVerileri.map(item => item.ay),
+                    datasets: [{
+                        label: 'Toplam Tutar (₺)',
+                        data: data.aylikFaturaVerileri.map(item => item.toplamTutar),
+                        borderColor: 'rgba(75,85,99,1)',
+                        backgroundColor: 'rgba(75,85,99,0.1)',
+                        tension: 0.4,
+                        fill: true,
+                        borderWidth: 3
+                    }]
+                },
+                options: {responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'rgba(0,0,0,0.07)'}},x:{grid:{display:false}}}}
+            });
+            // Stok Durum Grafiği
+            new Chart(document.getElementById('stokDurumChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: data.stokDurumlari.map(item => item.durum),
+                    datasets: [{
+                        data: data.stokDurumlari.map(item => item.sayi),
+                        backgroundColor: [
+                            'rgba(156,163,175,0.8)',
+                            'rgba(107,114,128,0.8)',
+                            'rgba(75,85,99,0.8)'
+                        ],
+                        borderColor: [
+                            'rgba(156,163,175,1)',
+                            'rgba(107,114,128,1)',
+                            'rgba(75,85,99,1)'
+                        ],
+                        borderWidth: 2
+                    }]
+                },
+                options: {responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom'}}}
+            });
+        });
+    </script>
+}

@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Takvim";
+}
+
+<h2 class="text-2xl font-bold text-indigo-700 mb-6">İşlem Takvimi</h2>
+<div id="calendar" class="bg-white/80 rounded-xl shadow p-6"></div>
+
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            locale: 'tr',
+            height: 650,
+            headerToolbar: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'dayGridMonth,timeGridWeek,timeGridDay'
+            },
+            events: '/Home/GetCalendarEvents',
+            eventClick: function (info) {
+                if (info.event.url) {
+                    window.open(info.event.url, '_blank');
+                    info.jsEvent.preventDefault();
+                }
+            },
+            eventDidMount: function(info) {
+                if (info.event.extendedProps.color) {
+                    info.el.style.backgroundColor = info.event.extendedProps.color;
+                }
+            }
+        });
+        calendar.render();
+    });
+</script> 

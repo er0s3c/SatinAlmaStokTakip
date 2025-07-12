@@ -1,0 +1,55 @@
+@model SatinAlmaStokTakip.Models.Teklif
+
+@{
+    ViewData["Title"] = "Teklif Detay";
+}
+
+<h2 class="text-2xl font-bold text-indigo-700 mb-6">Teklif Detay</h2>
+
+<div class="overflow-x-auto max-w-xl mx-auto mb-8">
+    <table class="min-w-full bg-white/80 rounded-xl shadow divide-y divide-gray-200">
+        <tbody>
+            <tr><th class="px-4 py-2 text-left bg-indigo-50 w-40">ID</th><td class="px-4 py-2">@Model.ID</td></tr>
+            <tr><th class="px-4 py-2 text-left bg-indigo-50">Firma</th><td class="px-4 py-2">@Model.FirmaAdi</td></tr>
+            <tr><th class="px-4 py-2 text-left bg-indigo-50">Fiyat</th><td class="px-4 py-2">@Model.Fiyat ₺</td></tr>
+            <tr><th class="px-4 py-2 text-left bg-indigo-50">Notlar</th><td class="px-4 py-2">@Model.Notlar</td></tr>
+            <tr><th class="px-4 py-2 text-left bg-indigo-50">Onay Durumu</th><td class="px-4 py-2">@Model.OnayDurumu</td></tr>
+            <tr><th class="px-4 py-2 text-left bg-indigo-50">Onay Notu</th><td class="px-4 py-2">@Model.OnayNotu</td></tr>
+            <tr><th class="px-4 py-2 text-left bg-indigo-50">Dosya</th><td class="px-4 py-2">@(string.IsNullOrEmpty(Model.DosyaYolu) ? "-" : Html.Raw($"<a href='{Model.DosyaYolu}' target='_blank' class='text-indigo-600 hover:underline'>Dosyayı Görüntüle</a>"))</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="my-8" />
+<h4 class="text-xl font-semibold text-indigo-700 mb-4">Yorumlar</h4>
+@if (Model.Yorumlar != null && Model.Yorumlar.Any())
+{
+    <ul class="space-y-3 mb-6">
+        @foreach (var yorum in Model.Yorumlar.OrderByDescending(y => y.Tarih))
+        {
+            <li class="bg-indigo-50 rounded-lg p-4 shadow flex flex-col">
+                <div class="flex items-center gap-2 mb-1">
+                    <b class="text-indigo-700">@yorum.Kullanici?.AdSoyad</b>
+                    <span class="text-gray-400 text-xs">@yorum.Tarih.ToString("dd.MM.yyyy HH:mm")</span>
+                </div>
+                <div class="text-gray-700">@yorum.Icerik</div>
+            </li>
+        }
+    </ul>
+}
+else
+{
+                <div class="bg-gray-100 text-gray-800 rounded p-3 mb-6">Henüz yorum yok.</div>
+}
+
+@if (Context.Session.GetString("KullaniciAdi") != null)
+{
+    <form asp-controller="Yorum" asp-action="Ekle" method="post" class="max-w-xl mx-auto bg-white/80 rounded-xl shadow p-4 space-y-3 mb-6">
+        <input type="hidden" name="tip" value="Teklif" />
+        <input type="hidden" name="kayitId" value="@Model.ID" />
+        <div>
+            <textarea name="icerik" class="w-full rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-400 focus:border-indigo-400 px-3 py-2 text-gray-700" placeholder="Yorumunuzu yazın..." required></textarea>
+        </div>
+                        <button type="submit" class="px-5 py-2 rounded-lg bg-gray-700 hover:bg-gray-800 text-white font-semibold flex items-center gap-2"><i class="fas fa-comment-dots"></i> Yorum Ekle</button>
+    </form>
+} 

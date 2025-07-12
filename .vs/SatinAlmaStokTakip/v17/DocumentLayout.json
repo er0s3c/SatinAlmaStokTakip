@@ -1,0 +1,614 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\talep\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\talep\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\controllers\\tuketimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\controllers\\tuketimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\controllers\\faturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\controllers\\faturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\log\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\log\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\models\\veritabanicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\models\\veritabanicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\tuketim\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\tuketim\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\tuketim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\tuketim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\models\\tuketim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\models\\tuketim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\teklif\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\teklif\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\teklif\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\teklif\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\controllers\\teklifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\controllers\\teklifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\models\\teklif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\models\\teklif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\talep\\detay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\talep\\detay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\talep\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\talep\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\talep\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\talep\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\controllers\\talepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\controllers\\talepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\stok\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\stok\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\stok\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\stok\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\controllers\\stokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\controllers\\stokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\models\\fatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\models\\fatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\fatura\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\fatura\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\fatura\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\fatura\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\models\\stok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\models\\stok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\models\\talep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\models\\talep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\migrations\\20250712054245_kullanicigirisalani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\migrations\\20250712054245_kullanicigirisalani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\migrations\\20250712054051_stoktablosu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\migrations\\20250712054051_stoktablosu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\migrations\\20250712053638_faturatablosu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\migrations\\20250712053638_faturatablosu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\migrations\\20250712052635_talepteklifiliskisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\migrations\\20250712052635_talepteklifiliskisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\migrations\\20250712052300_tekliftablosu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\migrations\\20250712052300_tekliftablosu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|c:\\users\\erena\\source\\repos\\satinalmastoktakip\\satinalmastoktakip\\migrations\\20250712051513_ilkkurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DFD4EE-5430-4201-9437-57237B7A3A51}|SatinAlmaStokTakip\\SatinAlmaStokTakip.csproj|solutionrelative:satinalmastoktakip\\migrations\\20250712051513_ilkkurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Tuketim\\Create.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Tuketim\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Tuketim\\Create.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Tuketim\\Create.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T06:01:00.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Tuketim\\Index.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Tuketim\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Tuketim\\Index.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Tuketim\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T06:00:38.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VeritabaniContext.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\VeritabaniContext.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Models\\VeritabaniContext.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\VeritabaniContext.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Models\\VeritabaniContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:11:27.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TuketimController.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\TuketimController.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Controllers\\TuketimController.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\TuketimController.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Controllers\\TuketimController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:00:11.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Talep\\Index.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Talep\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Talep\\Index.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Talep\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAewCAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:17:12.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FaturaController.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\FaturaController.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Controllers\\FaturaController.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\FaturaController.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Controllers\\FaturaController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:37:10.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Log.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Models\\Log.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Log.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Models\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:02:15.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogController.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\LogController.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Controllers\\LogController.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\LogController.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Controllers\\LogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T06:03:03.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Log\\Index.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Log\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Log\\Index.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Log\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T06:03:35.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:44:42.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tuketim.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Tuketim.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Models\\Tuketim.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Tuketim.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Models\\Tuketim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:59:40.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Kullanici.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Kullanici.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Models\\Kullanici.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Kullanici.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Models\\Kullanici.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:13:43.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:43:02.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Teklif\\Index.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Teklif\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Teklif\\Index.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Teklif\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:24:12.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Teklif\\Create.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Teklif\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Teklif\\Create.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Teklif\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:24:30.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TeklifController.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\TeklifController.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Controllers\\TeklifController.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\TeklifController.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Controllers\\TeklifController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:23:39.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Teklif.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Teklif.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Models\\Teklif.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Teklif.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Models\\Teklif.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:22:34.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Detay.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Talep\\Detay.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Talep\\Detay.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Talep\\Detay.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Talep\\Detay.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:27:14.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Talep\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Talep\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Talep\\Edit.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Talep\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:20:30.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Talep\\Create.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Talep\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Talep\\Create.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Talep\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:19:21.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TalepController.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\TalepController.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Controllers\\TalepController.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\TalepController.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Controllers\\TalepController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAmwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:16:12.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Stok\\Create.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Stok\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Stok\\Create.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Stok\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:41:57.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Stok\\Index.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Stok\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Stok\\Index.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Stok\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:41:40.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StokController.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\StokController.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Controllers\\StokController.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Controllers\\StokController.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Controllers\\StokController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:41:03.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Fatura.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Fatura.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Models\\Fatura.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Fatura.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Models\\Fatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:36:01.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Fatura\\Create.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Fatura\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Fatura\\Create.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Fatura\\Create.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:38:30.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Fatura\\Index.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Fatura\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Fatura\\Index.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Fatura\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:38:18.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:43:26.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Program.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Program.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Program.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:11:47.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250712054245_KullaniciGirisAlani.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712054245_KullaniciGirisAlani.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Migrations\\20250712054245_KullaniciGirisAlani.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712054245_KullaniciGirisAlani.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Migrations\\20250712054245_KullaniciGirisAlani.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:42:45.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250712054051_StokTablosu.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712054051_StokTablosu.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Migrations\\20250712054051_StokTablosu.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712054051_StokTablosu.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Migrations\\20250712054051_StokTablosu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:40:51.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Stok.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Stok.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Models\\Stok.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Stok.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Models\\Stok.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:40:25.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250712053638_FaturaTablosu.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712053638_FaturaTablosu.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Migrations\\20250712053638_FaturaTablosu.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712053638_FaturaTablosu.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Migrations\\20250712053638_FaturaTablosu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:36:38.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Talep.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Talep.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Models\\Talep.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Models\\Talep.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Models\\Talep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:13:58.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250712052635_TalepTeklifIliskisi.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712052635_TalepTeklifIliskisi.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Migrations\\20250712052635_TalepTeklifIliskisi.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712052635_TalepTeklifIliskisi.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Migrations\\20250712052635_TalepTeklifIliskisi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:26:35.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250712052300_TeklifTablosu.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712052300_TeklifTablosu.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Migrations\\20250712052300_TeklifTablosu.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712052300_TeklifTablosu.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Migrations\\20250712052300_TeklifTablosu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:23:01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250712051513_IlkKurulum.cs",
+              "DocumentMoniker": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712051513_IlkKurulum.cs",
+              "RelativeDocumentMoniker": "SatinAlmaStokTakip\\Migrations\\20250712051513_IlkKurulum.cs",
+              "ToolTip": "C:\\Users\\Erena\\source\\repos\\SatinAlmaStokTakip\\SatinAlmaStokTakip\\Migrations\\20250712051513_IlkKurulum.cs",
+              "RelativeToolTip": "SatinAlmaStokTakip\\Migrations\\20250712051513_IlkKurulum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T05:15:13.75Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

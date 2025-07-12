@@ -1,0 +1,65 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using SatinAlmaStokTakip.Models;
+using System.Linq;
+
+namespace SatinAlmaStokTakip.Controllers
+{
+    public class FaturaController : Controller
+    {
+        private readonly VeritabaniContext _context;
+
+        public FaturaController(VeritabaniContext context)
+        {
+            _context = context;
+        }
+
+
+        public IActionResult Index()
+        {
+            if (HttpContext.Session.GetString("KullaniciAdi") == null)
+                return RedirectToAction("Login", "Account");
+
+            var faturalar = _context.Faturalar.ToList();
+            return View(faturalar);
+        }
+
+        public IActionResult Create()
+        {
+            if (HttpContext.Session.GetString("KullaniciAdi") == null)
+                return RedirectToAction("Login", "Account");
+
+            ViewBag.Teklifler = _context.Teklifler.ToList();
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Fatura fatura)
+        {
+            if (ModelState.IsValid)
+            {
+                fatura.FaturaTarihi = DateTime.Now;
+                _context.Faturalar.Add(fatura);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+
+            ViewBag.Teklifler = _context.Teklifler.ToList();
+            return View(fatura);
+        }
+
+        public IActionResult Delete(int id)
+        {
+            if (HttpContext.Session.GetString("KullaniciAdi") == null)
+                return RedirectToAction("Login", "Account");
+
+            var fatura = _context.Faturalar.FirstOrDefault(f => f.ID == id);
+            if (fatura == null)
+                return NotFound();
+
+            _context.Faturalar.Remove(fatura);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+    }
+}
